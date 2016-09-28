@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		805457E01D56465F00508ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 805457DF1D56465F00508ADB /* main.m */; };
+		805457E31D56465F00508ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 805457E21D56465F00508ADB /* AppDelegate.m */; };
+		805457E61D56465F00508ADB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 805457E51D56465F00508ADB /* ViewController.m */; };
+		805457E91D56465F00508ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805457E71D56465F00508ADB /* Main.storyboard */; };
+		805457EB1D56465F00508ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805457EA1D56465F00508ADB /* Assets.xcassets */; };
+		805457EE1D56465F00508ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805457EC1D56465F00508ADB /* LaunchScreen.storyboard */; };
+		80900A001D956852008A3A1E /* NSError+JSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009E21D956852008A3A1E /* NSError+JSHelper.m */; };
+		80900A011D956852008A3A1E /* NSString+JSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009E41D956852008A3A1E /* NSString+JSHelper.m */; };
+		80900A021D956852008A3A1E /* UIView+JSLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009E61D956852008A3A1E /* UIView+JSLayout.m */; };
+		80900A031D956852008A3A1E /* DropDownListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009E91D956852008A3A1E /* DropDownListView.m */; };
+		80900A041D956852008A3A1E /* JSDropdownField.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009EB1D956852008A3A1E /* JSDropdownField.m */; };
+		80900A051D956852008A3A1E /* JSInputField.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009ED1D956852008A3A1E /* JSInputField.m */; };
+		80900A061D956852008A3A1E /* JSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009F11D956852008A3A1E /* JSLogger.m */; };
+		80900A071D956852008A3A1E /* JSRuleApply.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009F51D956852008A3A1E /* JSRuleApply.m */; };
+		80900A081D956852008A3A1E /* JSRuleLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009F71D956852008A3A1E /* JSRuleLength.m */; };
+		80900A091D956852008A3A1E /* JSRuleNotNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009F91D956852008A3A1E /* JSRuleNotNull.m */; };
+		80900A0A1D956852008A3A1E /* JSRuleNumberRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009FB1D956852008A3A1E /* JSRuleNumberRange.m */; };
+		80900A0B1D956852008A3A1E /* JSRuleNumeric.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009FD1D956852008A3A1E /* JSRuleNumeric.m */; };
+		80900A0C1D956852008A3A1E /* JSRuleRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 809009FF1D956852008A3A1E /* JSRuleRegex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		805457DB1D56465F00508ADB /* JSUIComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSUIComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		805457DF1D56465F00508ADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		805457E11D56465F00508ADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		805457E21D56465F00508ADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		805457E41D56465F00508ADB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		805457E51D56465F00508ADB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		805457E81D56465F00508ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		805457EA1D56465F00508ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		805457ED1D56465F00508ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		805457EF1D56465F00508ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		809009E11D956852008A3A1E /* NSError+JSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+JSHelper.h"; sourceTree = "<group>"; };
+		809009E21D956852008A3A1E /* NSError+JSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+JSHelper.m"; sourceTree = "<group>"; };
+		809009E31D956852008A3A1E /* NSString+JSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSHelper.h"; sourceTree = "<group>"; };
+		809009E41D956852008A3A1E /* NSString+JSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSHelper.m"; sourceTree = "<group>"; };
+		809009E51D956852008A3A1E /* UIView+JSLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JSLayout.h"; sourceTree = "<group>"; };
+		809009E61D956852008A3A1E /* UIView+JSLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JSLayout.m"; sourceTree = "<group>"; };
+		809009E81D956852008A3A1E /* DropDownListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownListView.h; sourceTree = "<group>"; };
+		809009E91D956852008A3A1E /* DropDownListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownListView.m; sourceTree = "<group>"; };
+		809009EA1D956852008A3A1E /* JSDropdownField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDropdownField.h; sourceTree = "<group>"; };
+		809009EB1D956852008A3A1E /* JSDropdownField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDropdownField.m; sourceTree = "<group>"; };
+		809009EC1D956852008A3A1E /* JSInputField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSInputField.h; sourceTree = "<group>"; };
+		809009ED1D956852008A3A1E /* JSInputField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSInputField.m; sourceTree = "<group>"; };
+		809009F01D956852008A3A1E /* JSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLogger.h; sourceTree = "<group>"; };
+		809009F11D956852008A3A1E /* JSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLogger.m; sourceTree = "<group>"; };
+		809009F31D956852008A3A1E /* JSRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRule.h; sourceTree = "<group>"; };
+		809009F41D956852008A3A1E /* JSRuleApply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRuleApply.h; sourceTree = "<group>"; };
+		809009F51D956852008A3A1E /* JSRuleApply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRuleApply.m; sourceTree = "<group>"; };
+		809009F61D956852008A3A1E /* JSRuleLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRuleLength.h; sourceTree = "<group>"; };
+		809009F71D956852008A3A1E /* JSRuleLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRuleLength.m; sourceTree = "<group>"; };
+		809009F81D956852008A3A1E /* JSRuleNotNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRuleNotNull.h; sourceTree = "<group>"; };
+		809009F91D956852008A3A1E /* JSRuleNotNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRuleNotNull.m; sourceTree = "<group>"; };
+		809009FA1D956852008A3A1E /* JSRuleNumberRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRuleNumberRange.h; sourceTree = "<group>"; };
+		809009FB1D956852008A3A1E /* JSRuleNumberRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRuleNumberRange.m; sourceTree = "<group>"; };
+		809009FC1D956852008A3A1E /* JSRuleNumeric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRuleNumeric.h; sourceTree = "<group>"; };
+		809009FD1D956852008A3A1E /* JSRuleNumeric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRuleNumeric.m; sourceTree = "<group>"; };
+		809009FE1D956852008A3A1E /* JSRuleRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRuleRegex.h; sourceTree = "<group>"; };
+		809009FF1D956852008A3A1E /* JSRuleRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRuleRegex.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805457D81D56465F00508ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		805457D21D56465F00508ADB = {
+			isa = PBXGroup;
+			children = (
+				805457DD1D56465F00508ADB /* JSUIComponents */,
+				805457DC1D56465F00508ADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		805457DC1D56465F00508ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805457DB1D56465F00508ADB /* JSUIComponents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		805457DD1D56465F00508ADB /* JSUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				809009DF1D956852008A3A1E /* JSKit */,
+				805457E11D56465F00508ADB /* AppDelegate.h */,
+				805457E21D56465F00508ADB /* AppDelegate.m */,
+				805457E41D56465F00508ADB /* ViewController.h */,
+				805457E51D56465F00508ADB /* ViewController.m */,
+				805457E71D56465F00508ADB /* Main.storyboard */,
+				805457EA1D56465F00508ADB /* Assets.xcassets */,
+				805457EC1D56465F00508ADB /* LaunchScreen.storyboard */,
+				805457EF1D56465F00508ADB /* Info.plist */,
+				805457DE1D56465F00508ADB /* Supporting Files */,
+			);
+			path = JSUIComponents;
+			sourceTree = "<group>";
+		};
+		805457DE1D56465F00508ADB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				805457DF1D56465F00508ADB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		809009DF1D956852008A3A1E /* JSKit */ = {
+			isa = PBXGroup;
+			children = (
+				809009E01D956852008A3A1E /* Category */,
+				809009E71D956852008A3A1E /* UIComponents */,
+				809009EE1D956852008A3A1E /* Utilities */,
+			);
+			name = JSKit;
+			path = ../../JSKit;
+			sourceTree = "<group>";
+		};
+		809009E01D956852008A3A1E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				809009E11D956852008A3A1E /* NSError+JSHelper.h */,
+				809009E21D956852008A3A1E /* NSError+JSHelper.m */,
+				809009E31D956852008A3A1E /* NSString+JSHelper.h */,
+				809009E41D956852008A3A1E /* NSString+JSHelper.m */,
+				809009E51D956852008A3A1E /* UIView+JSLayout.h */,
+				809009E61D956852008A3A1E /* UIView+JSLayout.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		809009E71D956852008A3A1E /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				809009E81D956852008A3A1E /* DropDownListView.h */,
+				809009E91D956852008A3A1E /* DropDownListView.m */,
+				809009EA1D956852008A3A1E /* JSDropdownField.h */,
+				809009EB1D956852008A3A1E /* JSDropdownField.m */,
+				809009EC1D956852008A3A1E /* JSInputField.h */,
+				809009ED1D956852008A3A1E /* JSInputField.m */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		809009EE1D956852008A3A1E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				809009EF1D956852008A3A1E /* FileLogger */,
+				809009F21D956852008A3A1E /* ValidationRules */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		809009EF1D956852008A3A1E /* FileLogger */ = {
+			isa = PBXGroup;
+			children = (
+				809009F01D956852008A3A1E /* JSLogger.h */,
+				809009F11D956852008A3A1E /* JSLogger.m */,
+			);
+			path = FileLogger;
+			sourceTree = "<group>";
+		};
+		809009F21D956852008A3A1E /* ValidationRules */ = {
+			isa = PBXGroup;
+			children = (
+				809009F31D956852008A3A1E /* JSRule.h */,
+				809009F41D956852008A3A1E /* JSRuleApply.h */,
+				809009F51D956852008A3A1E /* JSRuleApply.m */,
+				809009F61D956852008A3A1E /* JSRuleLength.h */,
+				809009F71D956852008A3A1E /* JSRuleLength.m */,
+				809009F81D956852008A3A1E /* JSRuleNotNull.h */,
+				809009F91D956852008A3A1E /* JSRuleNotNull.m */,
+				809009FA1D956852008A3A1E /* JSRuleNumberRange.h */,
+				809009FB1D956852008A3A1E /* JSRuleNumberRange.m */,
+				809009FC1D956852008A3A1E /* JSRuleNumeric.h */,
+				809009FD1D956852008A3A1E /* JSRuleNumeric.m */,
+				809009FE1D956852008A3A1E /* JSRuleRegex.h */,
+				809009FF1D956852008A3A1E /* JSRuleRegex.m */,
+			);
+			path = ValidationRules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		805457DA1D56465F00508ADB /* JSUIComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805457F21D56465F00508ADB /* Build configuration list for PBXNativeTarget "JSUIComponents" */;
+			buildPhases = (
+				805457D71D56465F00508ADB /* Sources */,
+				805457D81D56465F00508ADB /* Frameworks */,
+				805457D91D56465F00508ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSUIComponents;
+			productName = JSUIComponents;
+			productReference = 805457DB1D56465F00508ADB /* JSUIComponents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		805457D31D56465F00508ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jitendra Singh";
+				TargetAttributes = {
+					805457DA1D56465F00508ADB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 805457D61D56465F00508ADB /* Build configuration list for PBXProject "JSUIComponents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"en-au",
+				"en-ca",
+				"en-us",
+			);
+			mainGroup = 805457D21D56465F00508ADB;
+			productRefGroup = 805457DC1D56465F00508ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				805457DA1D56465F00508ADB /* JSUIComponents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		805457D91D56465F00508ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805457EE1D56465F00508ADB /* LaunchScreen.storyboard in Resources */,
+				805457EB1D56465F00508ADB /* Assets.xcassets in Resources */,
+				805457E91D56465F00508ADB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		805457D71D56465F00508ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80900A001D956852008A3A1E /* NSError+JSHelper.m in Sources */,
+				805457E61D56465F00508ADB /* ViewController.m in Sources */,
+				80900A0B1D956852008A3A1E /* JSRuleNumeric.m in Sources */,
+				80900A091D956852008A3A1E /* JSRuleNotNull.m in Sources */,
+				80900A041D956852008A3A1E /* JSDropdownField.m in Sources */,
+				80900A051D956852008A3A1E /* JSInputField.m in Sources */,
+				80900A081D956852008A3A1E /* JSRuleLength.m in Sources */,
+				80900A011D956852008A3A1E /* NSString+JSHelper.m in Sources */,
+				80900A0C1D956852008A3A1E /* JSRuleRegex.m in Sources */,
+				80900A0A1D956852008A3A1E /* JSRuleNumberRange.m in Sources */,
+				80900A021D956852008A3A1E /* UIView+JSLayout.m in Sources */,
+				80900A061D956852008A3A1E /* JSLogger.m in Sources */,
+				805457E31D56465F00508ADB /* AppDelegate.m in Sources */,
+				805457E01D56465F00508ADB /* main.m in Sources */,
+				80900A031D956852008A3A1E /* DropDownListView.m in Sources */,
+				80900A071D956852008A3A1E /* JSRuleApply.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		805457E71D56465F00508ADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805457E81D56465F00508ADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		805457EC1D56465F00508ADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805457ED1D56465F00508ADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		805457F01D56465F00508ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		805457F11D56465F00508ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		805457F31D56465F00508ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSUIComponents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.JSUIComponents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		805457F41D56465F00508ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSUIComponents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.JSUIComponents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		805457D61D56465F00508ADB /* Build configuration list for PBXProject "JSUIComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805457F01D56465F00508ADB /* Debug */,
+				805457F11D56465F00508ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805457F21D56465F00508ADB /* Build configuration list for PBXNativeTarget "JSUIComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805457F31D56465F00508ADB /* Debug */,
+				805457F41D56465F00508ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 805457D31D56465F00508ADB /* Project object */;
+}
